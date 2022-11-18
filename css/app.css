@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Oxanium";
+  src: url(../fonts/Oxanium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+html {
+  box-sizing: border-box;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  color: #39593e;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oxanium";
+}
+
+body {
+  height: 100vh;
+}

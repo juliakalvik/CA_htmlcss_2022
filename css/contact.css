@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;500&display=swap");
+
+input[type="text"] {
+  font-family: "Oxanium";
+  display: flex;
+  width: 70vw;
+  padding: 1.5vh;
+  font-size: medium;
+  margin: 10px;
+  background-color: #39593e; transparent
+}
+
+.message {
+  height: 20vh;
+}
+
+input[type="submit"] {
+  font-family: "Oxanium";
+  display: flex;
+  background-color: transparent;
+  
+}
+
+.contactform {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  background-color: transparent;
+}
+
+.bg_photo {
+  background-image: url(../images/bg_photo_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

@@ -1,0 +1,217 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.topnav {
+  background-color: #39593e;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 20px;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 20px;
+  align-items: center;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: darkgray;
+}
+
+.headerlogo {
+  width: 50px;
+}
+
+.headerlogo.white {
+  padding-left: 5%;
+}
+
+header {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+.headerlogo.green {
+  display: none;
+}
+
+.herocontainer {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  flex: wrap;
+}
+
+.container {
+  width: 20%;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 80%;
+}
+
+.hero {
+  width: 95%;
+  max-height: auto;
+}
+
+body {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.jackets_homepage {
+  display: flex;
+  align-items: flex-end;
+}
+
+.jacket {
+  text-align: center;
+}
+
+.jacket > img {
+  height: 200px;
+  margin: 3%;
+}
+
+.jacket > button {
+  color: #ece0c9;
+  font-family: Roboto-Medium;
+  background-color: #39593e;
+  text-align: center;
+  width: 80px;
+}
+
+.activities img {
+  max-width: 200px;
+  justify-content: space-between;
+  margin: 2%;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  color: #ece0c9;
+  background-color: #39593e;
+  text-align: center;
+  margin: 0%;
+}
+
+h6 {
+  margin-left: 50%;
+}
+
+.btn {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  padding: 7px;
+  font-size: 16px;
+  color: #39593e;
+  background-color: #ece0c9;
+}
+
+.nav_small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav {
+    background-color: white;
+  }
+  .activities img {
+    max-width: 20%;
+  }
+  .container h3 {
+    display: none;
+  }
+  .container {
+    position: absolute;
+    right: 50px;
+    width: 150px;
+  }
+
+  .herocontainer {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hero {
+    width: 100vw;
+  }
+
+  .topnav a {
+    color: #39593e;
+  }
+  .menu {
+    display: none;
+  }
+  .headerlogo.green {
+    display: block;
+  }
+  .headerlogo.white {
+    display: none;
+  }
+  .jackets_homepage {
+    overflow: scroll;
+    gap: 10px;
+  }
+  .jacket > button {
+    display: none;
+  }
+
+  .jacket > img {
+    height: 150px;
+  }
+
+  .jacket {
+    background-color: #ece0c9;
+    border-radius: 40px;
+  }
+  .btn {
+    display: none;
+  }
+
+  h6 {
+    display: none;
+  }
+
+  .nav_small {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .nav_small {
+    display: none;
+  }
+}

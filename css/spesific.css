@@ -1,0 +1,21 @@
+.product_img {
+  display: flex;
+  width: 220px;
+  align-items: center;
+}
+
+h1 {
+  color: blueviolet;
+  background-color: brown;
+}
+
+.button_spesific {
+  display: flex;
+  border: none;
+  color: aquamarine;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}

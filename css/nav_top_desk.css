@@ -1,0 +1,77 @@
+@media screen and (min-width: 769px) {
+  .topnav {
+    background-color: #39593e;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 80px;
+    align-items: center;
+  }
+
+  .header-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px;
+    align-items: center;
+  }
+
+  .header-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px;
+    align-items: center;
+  }
+
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    color: darkgray;
+  }
+
+  .headerlogo {
+    width: 50px;
+  }
+
+  .headerlogo.white {
+    padding-left: 5%;
+  }
+
+  header {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }
+}
+
+/* KOPIER DENNE */
+/* <header>
+    <div class="topnav">
+      <div class="header-left">
+        <a href="index.html"
+          ><img
+            src="images/RainyDays_Logo_white.png"
+            alt="Rainy Days, pushing the comfort zone"
+            class="headerlogo white" />
+          <img
+            src="images/RainyDays_Logo_green.png"
+            alt="Rainy Days, pushing the comfort zone"
+            class="headerlogo green"
+        /></a>
+        <a href="contact.html">ABOUT US</a>
+        <a href="#jackets">CONTACT</a>
+      </div>
+      <div class="header-right">
+        <a class="menu" href="cart.html">SHOP</a>
+        <a class="menu" href="cart.html">FAVORITES</a>
+        <a class="menu" href="cart.html">CART</a>
+      </div>
+    </div>
+  </header> */

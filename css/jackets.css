@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+.topnav {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topnav_left {
+  display: flex;
+  margin-left: 6%;
+  margin-top: 5%;
+  gap: 5vw;
+}
+
+.headerlogo_green {
+  max-width: 20vw;
+}
+
+.btn_back {
+  height: 10vw;
+}
+
+.topnav_right {
+  display: flex;
+  padding-left: 1vw;
+  padding-right: 3vw;
+  font-size: 1.5em;
+  gap: 5vw;
+  padding-top: 3vh;
+}
+
+.topnav_right > a {
+  text-decoration: none;
+  color: #39593e;
+}
+
+.jacket > img > {
+  width: 110px;
+  background-color: #ece0c9;
+}
+
+.jackets_shop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-height: 182px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.jacket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 120px;
+  border-radius: 10%;
+  padding: 3%;
+  gap: 1em;
+  text-align: center;
+}
+
+.figure {
+  background-color: #ece0c9;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4%;
+}
+
+.jacket button {
+  flex: 1;
+  max-height: 20px;
+  max-width: 40px;
+  display: flex;
+  text-align: center;
+
+  color: #ece0c9;
+  background-color: #39593e;
+  border: none;
+  border-radius: 5%;
+}
+
+@media (min-width: 600px) {
+  .jacket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 280px;
+  }
+}
