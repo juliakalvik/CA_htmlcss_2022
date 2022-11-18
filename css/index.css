@@ -40,7 +40,7 @@
   margin: 3%;
 }
 
-.jacket > button {
+.jacket > a > button {
   color: #ece0c9;
   font-family: Roboto-Medium;
   background-color: #39593e;

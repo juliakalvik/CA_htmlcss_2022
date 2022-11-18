@@ -5,41 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/nav_top_phone.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/nav_top_desk.css" />
     <link rel="stylesheet" href="css/nav_bottom.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
     <title>Document</title>
   </head>
-  <header>
-    <div class="topnav">
+  <body>
+    <header class="topnav_desktop">
+      <div class="topnav">
+        <div class="header-left">
+          <a href="index.html"
+            ><img
+              src="images/RainyDays_Logo_white.png"
+              alt="Rainy Days, pushing the comfort zone"
+              class="headerlogo white" />
+            <img
+              src="images/RainyDays_Logo_green.png"
+              alt="Rainy Days, pushing the comfort zone"
+              class="headerlogo green"
+          /></a>
+          <a href="contact.html">ABOUT US</a>
+          <a href="#jackets">CONTACT</a>
+        </div>
+        <div class="header-right">
+          <a class="menu" href="cart.html">SHOP</a>
+          <a class="menu" href="cart.html">FAVORITES</a>
+          <a class="menu" href="cart.html">CART</a>
+        </div>
+      </div>
+    </header>
+
+    <header class="topnav_phone">
       <div class="topnav_left">
-      <a href="index.html"
-      ><img
+        <a href="index.html"
+          ><img
             src="images/RainyDays_Logo_green.png"
             alt="Rainy Days, pushing the comfort zone"
-            class="headerlogo_green">
-      <a href="index.html"
-      ><img src="images/btn_back.png" alt="Back" class="btn_back">
+            class="headerlogo_green"
+          />
+        </a>
+        <a href="index.html"
+          ><img src="images/btn_back.png" alt="Back" class="btn_back"
+        /></a>
       </div>
-    <div class="topnav_right">
-      <a href="contact.html">ABOUT</a>
-      <a href="jackets.html">SHOP</a>
-    </div>
-    </div>
+      <div class="topnav_right">
+        <a href="contact.html">ABOUT</a>
+        <a href="jackets.html">SHOP</a>
+      </div>
     </header>
-  <body></body>
-  
+
+    <div class="content positioning">
+      <div class="chosen_items">
+        <div>
+          <img
+            src="images/RainyDays_Jacket1.png"
+            alt="Jacket"
+            class="product_img"
+          />
+          <p>
+            Size: S <br />
+            Quantity: 99
+          </p>
+          <p>Price: 2.500,-</p>
+        </div>
+        <div>
+          <img
+            src="images/RainyDays_Jacket4.png"
+            alt="Jacket"
+            class="product_img"
+          />
+          <p>
+            Size: S <br />
+            Quantity: 99
+          </p>
+          <p>Price: 2.500,-</p>
+        </div>
+      </div>
+      <div class="form">
+        <section class="shippingaddress">
+          <h1>Shipping address</h1>
+          <div>
+            <form>
+              <input type="text" id="firstname" placeholder="First name" />
+              <input type="text" id="lastname" placeholder="Last name" />
+              <input type="text" id="email" placeholder="E-mail" />
+              <input type="text" id="tel" placeholder="Phone" />
+              <input type="text" id="address" placeholder="Address" />
+              <input type="text" id="postal" placeholder="Postal code" />
+              <input type="text" id="city" placeholder="City" />
+            </form>
+          </div>
+        </section>
+        <section class="cardinfo">
+          <h1>Card information</h1>
+          <div>
+            <form>
+              <input type="text" id="name" placeholder="Name on card" />
+              <input type="text" id="number" placeholder="Card number" />
+              <input type="text" id="number" placeholder="Expiration date" />
+              <input type="text" id="number" placeholder="CVC" />
+              <a href="success.html"><button>Place order</button></a>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
     <footer>
       <div class="nav_bottom">
-        <a href="index.html" 
-      ><img src="images/btn_1.png"> 
-        <a href="jackets.html"
-        ><img src="images/btn_2.png">
-        <a href="cart.html"
-        ><img src="images/btn_3.png">
-        <a href="cart.html"
-        ><img src="images/btn_4.png">
-        <a href="contact.html"
-        ><img src="images/btn_5.png">
+        <a href="index.html"><img src="images/btn_1.png" /> </a>
+        <a href="jackets.html"><img src="images/btn_2.png" /></a>
+        <a href="cart.html"><img src="images/btn_3.png" /></a>
+        <a href="cart.html"><img src="images/btn_4.png" /></a>
+        <a href="contact.html"><img src="images/btn_5.png" /></a>
       </div>
-      </footer> 
-  
+    </footer>
+  </body>
 </html>
