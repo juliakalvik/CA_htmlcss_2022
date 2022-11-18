@@ -65,7 +65,7 @@ header {
 }
 
 /* KOPIER DENNE */
-/* <header>
+/* <header class="topnav_desktop">
     <div class="topnav">
       <div class="header-left">
         <a href="index.html"
@@ -87,4 +87,6 @@ header {
         <a class="menu" href="cart.html">CART</a>
       </div>
     </div>
-  </header> */
+  </header>
+
+ */

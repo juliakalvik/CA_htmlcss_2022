@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 768px) {
   .content {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   .topnav_phone {
     display: flex;
@@ -44,20 +44,21 @@
 }
 
 /* KOPIER DENNE */
-/* <header>
-<div class="topnav">
-  <div class="topnav_left">
-  <a href="index.html"
-  ><img
-        src="images/RainyDays_Logo_green.png"
-        alt="Rainy Days, pushing the comfort zone"
-        class="headerlogo_green">
-  <a href="index.html"
-  ><img src="images/btn_back.png" alt="Back" class="btn_back">
-  </div>
-<div class="topnav_right">
-  <a href="contact.html">ABOUT</a>
-  <a href="jackets.html">SHOP</a>
-</div>
-</div>
-</header> */
+/* <header class="topnav_phone">
+    <div class="topnav_left">
+      <a href="index.html"
+        ><img
+          src="images/RainyDays_Logo_green.png"
+          alt="Rainy Days, pushing the comfort zone"
+          class="headerlogo_green"
+        />
+      </a>
+      <a href="index.html"
+        ><img src="images/btn_back.png" alt="Back" class="btn_back"
+      /></a>
+    </div>
+    <div class="topnav_right">
+      <a href="contact.html">ABOUT</a>
+      <a href="jackets.html">SHOP</a>
+    </div>
+  </header>*/

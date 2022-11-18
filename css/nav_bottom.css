@@ -2,6 +2,17 @@ footer {
   display: none;
 }
 
+.footer {
+  background-color: #39593e;
+  padding: 0;
+  height: 8vh;
+  color: white;
+  text-align: center;
+}
+.footer > p {
+  padding-top: 3vh;
+}
+
 @media screen and (max-width: 768px) {
   footer {
     display: flex;
@@ -30,18 +41,13 @@ footer {
 
 /* 
 Kopier denne:
-<footer>
-<div class="nav_bottom">
-  <a href="index.html" 
-><img src="images/btn_1.png"> 
-  <a href="jackets.html"
-  ><img src="images/btn_2.png">
-  <a href="cart.html"
-  ><img src="images/btn_3.png">
-  <a href="cart.html"
-  ><img src="images/btn_4.png">
-  <a href="contact.html"
-  ><img src="images/btn_5.png">
-</div>
-</footer> 
+    <footer>
+      <div class="nav_bottom">
+        <a href="index.html"><img src="images/btn_1.png" /> </a>
+        <a href="jackets.html"><img src="images/btn_2.png" /></a>
+        <a href="cart.html"><img src="images/btn_3.png" /></a>
+        <a href="cart.html"><img src="images/btn_4.png" /></a>
+        <a href="contact.html"><img src="images/btn_5.png" /></a>
+      </div>
+    </footer>
 */
