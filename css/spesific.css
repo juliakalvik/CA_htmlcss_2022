@@ -1,21 +1,48 @@
 .product_img {
-  display: flex;
-  width: 220px;
-  align-items: center;
+  width: 40vw;
 }
 
 h1 {
-  color: blueviolet;
-  background-color: brown;
+  color: #39593e;
 }
 
 .button_spesific {
-  display: flex;
   border: none;
+  margin: auto;
   color: aquamarine;
 }
 
-.main {
+.spesific_info {
   display: flex;
+  flex-direction: row;
   align-items: center;
+}
+.spesific_info > div {
+  width: 40%;
+  margin: auto;
+}
+
+.recommendation {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.recommendation > img {
+  width: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .spesific_info {
+    flex-direction: column;
+  }
+  .spesific_info > div {
+    width: 60%;
+    margin: auto;
+  }
+  .recommendation {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
 }
