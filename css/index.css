@@ -1,9 +1,9 @@
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 
-.topnav {
+/* .topnav {
   background-color: #39593e;
   color: white;
   display: flex;
@@ -52,7 +52,7 @@ header {
   padding: 0px;
   border: 0px;
   margin: 0px;
-}
+} */
 
 .headerlogo.green {
   display: none;
@@ -80,12 +80,12 @@ header {
   max-height: auto;
 }
 
-body {
+/* body {
   padding: 0px;
   border: 0px;
   margin: 0px;
   overflow-x: hidden;
-}
+} */
 
 .jackets_homepage {
   display: flex;
@@ -138,16 +138,13 @@ h6 {
   background-color: #ece0c9;
 }
 
-.nav_small {
+/* .nav_small {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 @media screen and (max-width: 768px) {
-  .topnav {
-    background-color: white;
-  }
   .activities img {
     max-width: 20%;
   }
@@ -169,18 +166,10 @@ h6 {
     width: 100vw;
   }
 
-  .topnav a {
-    color: #39593e;
-  }
   .menu {
     display: none;
   }
-  .headerlogo.green {
-    display: block;
-  }
-  .headerlogo.white {
-    display: none;
-  }
+
   .jackets_homepage {
     overflow: scroll;
     gap: 10px;
@@ -205,13 +194,14 @@ h6 {
     display: none;
   }
 
-  .nav_small {
+  /*   .nav_small {
     display: block;
-  }
+  } */
 }
 
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
   .nav_small {
     display: none;
   }
 }
+ */

@@ -3,7 +3,7 @@
     margin: 0;
   }
 
-  .topnav {
+  .topnav_small {
     display: flex;
     max-width: 100%;
     align-items: center;
