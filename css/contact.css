@@ -7,24 +7,39 @@ input[type="text"] {
   padding: 1.5vh;
   font-size: medium;
   margin: 10px;
-  background-color: rgba(57, 89, 62, 0.4);
+  background-color: rgba(57, 89, 62, 0.7);
 }
 
 .message {
   height: 20vh;
 }
 
+::placeholder {
+  color: #ece0c9;
+}
+
+.contactform a {
+  text-decoration: none;
+}
+
 input[type="submit"] {
   margin: auto;
-  font-family: "Oxanium";
   display: flex;
-  background-color: rgba(57, 89, 62, 0.4);
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "oxanium";
+  background-color: rgba(57, 89, 62, 0.8);
+  color: #ece0c9;
+  border: none;
+  width: 300px;
+  height: 70px;
 }
 
 .contactform {
   display: flex;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 2vh;
 }
 
 .bg_photo {
@@ -32,4 +47,11 @@ input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
 }

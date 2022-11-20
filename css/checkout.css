@@ -22,9 +22,66 @@
   border-radius: 4%;
 }
 
+.cartshopmore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 50%;
+  flex-wrap: wrap;
+}
+
+.cartshopmore button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "oxanium";
+  background-color: #39593e;
+  color: #ece0c9;
+  border: none;
+  width: 250px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 4%;
+}
+
+.cartshopmore a {
+  text-decoration: none;
+}
+
 .form {
-  border-left: 1px solid black;
-  padding-left: 5%;
+  border-left: 1px solid #39593e;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 7%;
+}
+
+::placeholder {
+  color: #8d8677;
+  background-color: #ece0c9;
+  font-size: 15px;
+  font-family: "roboto";
+}
+
+.form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "oxanium";
+  background-color: #39593e;
+  color: #ece0c9;
+  border: none;
+  width: 250px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 4%;
+}
+
+.cardinfo a {
+  text-decoration: none;
 }
 
 .positioning {

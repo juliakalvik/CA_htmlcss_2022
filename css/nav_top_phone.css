@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 768px) {
   .content {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   .topnav_phone {
     display: flex;

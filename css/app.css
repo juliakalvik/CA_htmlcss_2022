@@ -41,3 +41,7 @@ h6 {
 body {
   height: 100vh;
 }
+
+.content {
+  min-height: 92vh;
+}
