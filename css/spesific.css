@@ -6,12 +6,6 @@ h1 {
   color: #39593e;
 }
 
-.button_spesific {
-  border: none;
-  margin: auto;
-  color: aquamarine;
-}
-
 .spesific_info {
   display: flex;
   flex-direction: row;
@@ -22,11 +16,24 @@ h1 {
   margin: auto;
 }
 
+button {
+  color: #39593e;
+  background-color: #ece0c9;
+  height: 35px;
+  min-width: 35px;
+}
+
 .recommendation {
   display: flex;
   justify-content: center;
   gap: 5%;
 }
+
+.recommendation > h2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .recommendation > img {
   width: 15%;
 }
@@ -43,6 +50,10 @@ h1 {
     display: none;
   }
   .divider {
+    display: none;
+  }
+
+  h3 {
     display: none;
   }
 }

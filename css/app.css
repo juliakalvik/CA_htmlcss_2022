@@ -44,13 +44,15 @@ body {
 
 .content {
   min-height: 92vh;
+  margin-bottom: 10vh;
 }
 
 button {
-  color: #ece0c9;
-  font-family: Roboto-Medium;
+  font-family: "oxanium";
   background-color: #39593e;
-  text-align: center;
+  color: #ece0c9;
+  border: none;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -60,4 +62,7 @@ button:hover {
 button:active {
   box-shadow: 0 4px #666;
   transform: translateY(4px);
+}
+img {
+  object-fit: scale-down;
 }
