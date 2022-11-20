@@ -21,6 +21,10 @@ Conclusion:
 Even though this assignment was a tough challenge for me as a total newbie, I really enjoyed making this website and hope to do even better next time.
 
 LINK FIGMA FILE:
+https://www.figma.com/file/2LVQeK2ppazjh4UfFkG6Nk/RAINYDAYS?node-id=13%3A1126&t=TcdJ1UxCzlMGALON-1
+
+LINK TO DEPLOYED SITE:
+https://fastidious-yeot-f4403b.netlify.app
 
 References:
 
