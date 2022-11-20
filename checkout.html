@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="Rainy Days - Checkout"
-    />
+    <meta name="description" content="Rainy Days - Checkout" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/nav_top_phone.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -16,50 +13,52 @@
     <title>Checkout</title>
   </head>
   <body>
-      <header class="topnav_desktop">
-        <div class="topnav">
-          <div class="header-left">
-            <a href="index.html"
-              ><img
-                src="images/RainyDays_Logo_white.png"
-                alt="Rainy Days, pushing the comfort zone"
-                class="headerlogo white" />
-              <img
-                src="images/RainyDays_Logo_green.png"
-                alt="Rainy Days, pushing the comfort zone"
-                class="headerlogo green"
-            /></a>
-            <a href="about.html">ABOUT US</a>
-            <a href="contact.html">CONTACT</a>
-          </div>
-          <div class="header-right">
-            <a class="menu" href="jackets.html">SHOP</a> <a class="menu" href="login.html">PROFILE</a> <a class="menu" href="cart.html">FAVORITES</a>
-            <a class="menu" href="cart.html">CART</a>
-          </div>
-        </div>
-      </header>
-      <header class="topnav_phone">
-        <div class="topnav_left">
+    <header class="topnav_desktop">
+      <div class="topnav">
+        <div class="header-left">
           <a href="index.html"
             ><img
+              src="images/RainyDays_Logo_white.png"
+              alt="Rainy Days, pushing the comfort zone"
+              class="headerlogo white" />
+            <img
               src="images/RainyDays_Logo_green.png"
               alt="Rainy Days, pushing the comfort zone"
-              class="headerlogo_green"
-            />
-          </a>
-          <a href="index.html"
-            ><img src="images/btn_back.png" alt="Back" class="btn_back"
+              class="headerlogo green"
           /></a>
+          <a href="about.html">ABOUT US</a>
+          <a href="contact.html">CONTACT</a>
         </div>
-        <div class="topnav_right">
-          <a href="about.html">ABOUT</a>
-          <a href="jackets.html">SHOP</a>
+        <div class="header-right">
+          <a class="menu" href="jackets.html">SHOP</a>
+          <a class="menu" href="login.html">PROFILE</a>
+          <a class="menu" href="cart.html">FAVORITES</a>
+          <a class="menu" href="cart.html">CART</a>
         </div>
-      </header>
+      </div>
+    </header>
+    <header class="topnav_phone">
+      <div class="topnav_left">
+        <a href="index.html"
+          ><img
+            src="images/RainyDays_Logo_green.png"
+            alt="Rainy Days, pushing the comfort zone"
+            class="headerlogo_green"
+          />
+        </a>
+        <a href="index.html"
+          ><img src="images/btn_back.png" alt="Back" class="btn_back"
+        /></a>
+      </div>
+      <div class="topnav_right">
+        <a href="about.html">ABOUT</a>
+        <a href="jackets.html">SHOP</a>
+      </div>
+    </header>
 
-      <div class="content positioning">
+    <div class="content positioning">
       <div class="cartshopmore">
-        <h1> Your cart</h1>
+        <h1>Your cart</h1>
         <a href="jackets.html"><button>Shop more jackets</button></a>
       </div>
       <div class="chosen_items">
@@ -87,11 +86,10 @@
           </p>
           <p>Price: 2.500,-</p>
         </div>
-        <div><p>
-          
-        </p>
-        <p>Total: 2.500,-</p>
-      </div>
+        <div>
+          <p></p>
+          <p>Total: 2.500,-</p>
+        </div>
       </div>
       <div class="form">
         <section class="shippingaddress">
@@ -111,14 +109,13 @@
         </section>
         <section class="cardinfo">
           <h4>Card information</h4>
-            <form>
-              <input type="text" id="name" placeholder="Name on card" />
-              <input type="text" id="number" placeholder="Card number" />
-              <input type="text" id="number" placeholder="Expiration date" />
-              <input type="text" id="number" placeholder="CVC" />
-            </form>
-            <a href="success.html"><button>Place your order</button></a>
-          </div>
+          <form action="success.html">
+            <input type="text" id="name" placeholder="Name on card" />
+            <input type="text" id="card_number" placeholder="Card number" />
+            <input type="text" id="exp_date" placeholder="Expiration date" />
+            <input type="text" id="cvc" placeholder="CVC" />
+            <button>Place your order</button>
+          </form>
         </section>
       </div>
     </div>
@@ -142,7 +139,6 @@
         <a href="login.html"
           ><img alt="Icon of a silouette of a person" src="images/btn_5.png"
         /></a>
-
       </div>
     </footer>
   </body>

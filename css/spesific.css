@@ -38,6 +38,10 @@ button {
   width: 15%;
 }
 
+.other_viewed {
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   .spesific_info {
     flex-direction: column;
@@ -52,8 +56,7 @@ button {
   .divider {
     display: none;
   }
-
-  h3 {
+  .other_viewed {
     display: none;
   }
 }
