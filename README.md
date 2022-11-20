@@ -3,6 +3,13 @@ This website is an attempt to recreate my design from our design course. I have 
 
 Main section of report:
 Design:
+When I first started putting my design together in Figma, my initial thought was to go for a blue themed app and website, simply because of the name of the brand: Rainy Days. I tried doing some blue colors but just could not get it right. Two of my favorite colors are green
+and beige, and after doing some photo searching for the assignment, I finally found a bunch of photos with greens in them. That’s how I landed on the green (and a little beige) theme. The color green is also often associated with nature, being active and healthy, which was a
+good fit for this project. Even though the brand is called Rainy Days, their slogan is «pushing the comfort zone», and their products are ment for people that loves being active outdoors.
+
+When it comes to the typography, I decided to only use two fonts. I wanted to only use two fonts to keep my project as clean as possible, but
+with some variation. I really liked the font Roboto because that one is kind of clean, while Oxanium is a little more edgy and cool. Together I think they make a great combo.
+
 As much as I wanted to creat an aesthetically pleasing web site, I have not managed to make an exact copy of the design as in my Figma file. The reason is I didn't have enough time to both make a "perfect" design and includee all the pages, while make everything work properly. I was more focused on trying to make a functional site and a clean code. I still believe this assignment shows a good variety of what I have learned.
 
 HTML and CSS:
@@ -12,6 +19,8 @@ I have used media queries and flex to make my site responsive. I also tried usin
 
 Conclusion:
 Even though this assignment was a tough challenge for me as a total newbie, I really enjoyed making this website and hope to do even better next time.
+
+LINK FIGMA FILE:
 
 References:
 
