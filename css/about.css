@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;500&display=swap");
 
+/* FIXME: Expected class selector ".bg_photo" to be kebab-case  */
 .bg_photo {
+  /* FIXME: Url should have quotes */
   background-image: url(../images/bg_photo_2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
+/* FIXME: Needs empty line */
 .textbox {
   display: flex;
   flex-direction: column;
