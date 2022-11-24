@@ -1,0 +1,149 @@
+
+css/about.css
+  4:1   ✖  Expected class selector ".bg_photo" to be kebab-case  selector-class-pattern                       
+  6:25  ✖  Expected quotes around "url" function argument        function-url-quotes                          
+ 11:1   ✖  Expected empty line before comment                    comment-empty-line-before                    
+ 36:16  ✖  Unexpected missing generic font family                font-family-no-missing-generic-family-keyword
+ 36:16  ✖  Unexpected quotes around "oxanium"                    font-family-name-quotes                      
+
+css/app.css
+  2:16  ✖  Unexpected quotes around "Oxanium"                                    font-family-name-quotes                      
+  3:12  ✖  Expected quotes around "url" function argument                        function-url-quotes                          
+  6:16  ✖  Unexpected quotes around "Roboto"                                     font-family-name-quotes                      
+  7:12  ✖  Expected quotes around "url" function argument                        function-url-quotes                          
+ 13:1   ✖  Expected empty line before rule                                       rule-empty-line-before                       
+ 16:1   ✖  Expected empty line before rule                                       rule-empty-line-before                       
+ 22:1   ✖  Expected selector "html" to come before selector "html:focus-within"  no-descending-specificity                    
+ 27:16  ✖  Unexpected missing generic font family                                font-family-no-missing-generic-family-keyword
+ 27:16  ✖  Unexpected quotes around "Roboto"                                     font-family-name-quotes                      
+ 28:13  ✖  Unexpected unit                                                       length-zero-no-unit                          
+ 29:12  ✖  Unexpected unit                                                       length-zero-no-unit                          
+ 38:16  ✖  Unexpected missing generic font family                                font-family-no-missing-generic-family-keyword
+ 38:16  ✖  Unexpected quotes around "Oxanium"                                    font-family-name-quotes                      
+ 51:16  ✖  Unexpected missing generic font family                                font-family-no-missing-generic-family-keyword
+ 51:16  ✖  Unexpected quotes around "oxanium"                                    font-family-name-quotes                      
+ 66:1   ✖  Expected empty line before rule                                       rule-empty-line-before                       
+
+css/cart.css
+  1:1  ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                   
+  6:3  ✖  Unexpected empty line before declaration                             declaration-empty-line-before            
+  7:3  ✖  Unexpected duplicate "border-radius"                                 declaration-block-no-duplicate-properties
+ 11:1  ✖  Expected empty line before rule                                      rule-empty-line-before                   
+ 11:1  ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                   
+ 14:1  ✖  Expected empty line before rule                                      rule-empty-line-before                   
+ 14:1  ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                   
+ 18:1  ✖  Unexpected duplicate selector ".chosen_items", first used at line 1  no-duplicate-selectors                   
+ 18:1  ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                   
+ 23:1  ✖  Expected empty line before rule                                      rule-empty-line-before                   
+ 23:1  ✖  Expected class selector ".cart_options" to be kebab-case             selector-class-pattern                   
+ 28:1  ✖  Expected empty line before comment                                   comment-empty-line-before                
+ 29:1  ✖  Expected class selector ".cart_options" to be kebab-case             selector-class-pattern                   
+ 35:1  ✖  Expected empty line before rule                                      rule-empty-line-before                   
+ 35:1  ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                   
+
+css/checkout.css
+  1:1   ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                            
+  5:1   ✖  Expected empty line before rule                                      rule-empty-line-before                            
+  5:1   ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                            
+  9:1   ✖  Unexpected duplicate selector ".chosen_items", first used at line 1  no-duplicate-selectors                            
+  9:1   ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                            
+ 15:1   ✖  Expected class selector ".chosen_items" to be kebab-case             selector-class-pattern                            
+ 29:3   ✖  Expected shorthand property "flex-flow"                              declaration-block-no-redundant-longhand-properties
+ 37:16  ✖  Unexpected missing generic font family                               font-family-no-missing-generic-family-keyword     
+ 37:16  ✖  Unexpected quotes around "oxanium"                                   font-family-name-quotes                           
+ 63:16  ✖  Unexpected missing generic font family                               font-family-no-missing-generic-family-keyword     
+ 63:16  ✖  Unexpected quotes around "roboto"                                    font-family-name-quotes                           
+ 71:16  ✖  Unexpected missing generic font family                               font-family-no-missing-generic-family-keyword     
+ 71:16  ✖  Unexpected quotes around "oxanium"                                   font-family-name-quotes                           
+ 99:3   ✖  Expected empty line before rule                                      rule-empty-line-before                            
+
+css/contact.css
+  4:16  ✖  Unexpected missing generic font family                font-family-no-missing-generic-family-keyword
+  4:16  ✖  Unexpected quotes around "Oxanium"                    font-family-name-quotes                      
+ 10:21  ✖  Expected modern color-function notation               color-function-notation                      
+ 10:38  ✖  Expected "0.7" to be "70%"                            alpha-value-notation                         
+ 31:16  ✖  Unexpected missing generic font family                font-family-no-missing-generic-family-keyword
+ 31:16  ✖  Unexpected quotes around "oxanium"                    font-family-name-quotes                      
+ 32:21  ✖  Expected modern color-function notation               color-function-notation                      
+ 32:38  ✖  Expected "0.8" to be "80%"                            alpha-value-notation                         
+ 45:1   ✖  Expected class selector ".bg_photo" to be kebab-case  selector-class-pattern                       
+ 46:25  ✖  Expected quotes around "url" function argument        function-url-quotes                          
+
+css/index.css
+   6:1   ✖  Expected empty line before rule                               rule-empty-line-before                       
+   6:1   ✖  Expected class selector ".btn_back" to be kebab-case          selector-class-pattern                       
+   9:1   ✖  Expected empty line before rule                               rule-empty-line-before                       
+  29:1   ✖  Expected class selector ".jackets_homepage" to be kebab-case  selector-class-pattern                       
+  45:16  ✖  Unexpected missing generic font family                        font-family-no-missing-generic-family-keyword
+  85:3   ✖  Expected empty line before rule                               rule-empty-line-before                       
+  88:3   ✖  Expected empty line before rule                               rule-empty-line-before                       
+  90:23  ✖  Unexpected unit                                               length-zero-no-unit                          
+ 120:3   ✖  Expected class selector ".jackets_homepage" to be kebab-case  selector-class-pattern                       
+ 124:3   ✖  Expected empty line before rule                               rule-empty-line-before                       
+ 136:3   ✖  Expected empty line before rule                               rule-empty-line-before                       
+
+css/jackets.css
+ 10:1  ✖  Expected class selector ".jackets_shop" to be kebab-case  selector-class-pattern
+
+css/login.css
+  4:16  ✖  Unexpected missing generic font family                   font-family-no-missing-generic-family-keyword
+  4:16  ✖  Unexpected quotes around "Oxanium"                       font-family-name-quotes                      
+ 10:21  ✖  Expected modern color-function notation                  color-function-notation                      
+ 10:38  ✖  Expected "0.7" to be "70%"                               alpha-value-notation                         
+ 32:16  ✖  Unexpected missing generic font family                   font-family-no-missing-generic-family-keyword
+ 32:16  ✖  Unexpected quotes around "oxanium"                       font-family-name-quotes                      
+ 33:21  ✖  Expected modern color-function notation                  color-function-notation                      
+ 33:38  ✖  Expected "0.8" to be "80%"                               alpha-value-notation                         
+ 46:1   ✖  Expected class selector ".h1_form" to be kebab-case      selector-class-pattern                       
+ 53:1   ✖  Expected class selector ".bg_photo" to be kebab-case     selector-class-pattern                       
+ 54:25  ✖  Expected quotes around "url" function argument           function-url-quotes                          
+ 60:1   ✖  Expected class selector ".profile_img" to be kebab-case  selector-class-pattern                       
+ 68:1   ✖  Expected class selector ".profile_img" to be kebab-case  selector-class-pattern                       
+
+css/nav_bottom.css
+ 12:1  ✖  Expected empty line before rule                         rule-empty-line-before
+ 20:3  ✖  Expected empty line before rule                         rule-empty-line-before
+ 32:3  ✖  Expected class selector ".nav_bottom" to be kebab-case  selector-class-pattern
+ 40:3  ✖  Expected class selector ".nav_bottom" to be kebab-case  selector-class-pattern
+
+css/nav_top_desk.css
+ 47:13  ✖  Unexpected unit                                             length-zero-no-unit      
+ 48:12  ✖  Unexpected unit                                             length-zero-no-unit      
+ 49:12  ✖  Unexpected unit                                             length-zero-no-unit      
+ 53:3   ✖  Expected class selector ".topnav_desktop" to be kebab-case  selector-class-pattern   
+ 56:3   ✖  Expected empty line before rule                             rule-empty-line-before   
+ 59:3   ✖  Expected empty line before rule                             rule-empty-line-before   
+ 62:3   ✖  Expected empty line before rule                             rule-empty-line-before   
+ 68:1   ✖  Expected empty line before comment                          comment-empty-line-before
+
+css/nav_top_phone.css
+  1:1   ✖  Expected class selector ".topnav_phone" to be kebab-case      selector-class-pattern   
+  9:3   ✖  Expected empty line before rule                               rule-empty-line-before   
+  9:3   ✖  Expected class selector ".topnav_phone" to be kebab-case      selector-class-pattern   
+ 16:3   ✖  Expected class selector ".topnav_left" to be kebab-case       selector-class-pattern   
+ 23:3   ✖  Expected class selector ".headerlogo_green" to be kebab-case  selector-class-pattern   
+ 27:3   ✖  Expected class selector ".btn_back" to be kebab-case          selector-class-pattern   
+ 31:3   ✖  Expected class selector ".topnav_right" to be kebab-case      selector-class-pattern   
+ 40:3   ✖  Expected class selector ".topnav_right" to be kebab-case      selector-class-pattern   
+ 47:1   ✖  Expected empty line before comment                            comment-empty-line-before
+ 64:11  ✖  Expected whitespace before "*/"                               comment-whitespace-inside
+
+css/spesific.css
+  1:1  ✖  Expected class selector ".product_img" to be kebab-case    selector-class-pattern
+  9:1  ✖  Expected class selector ".spesific_info" to be kebab-case  selector-class-pattern
+ 14:1  ✖  Expected empty line before rule                            rule-empty-line-before
+ 14:1  ✖  Expected class selector ".spesific_info" to be kebab-case  selector-class-pattern
+ 41:1  ✖  Expected class selector ".other_viewed" to be kebab-case   selector-class-pattern
+ 46:3  ✖  Expected class selector ".spesific_info" to be kebab-case  selector-class-pattern
+ 49:3  ✖  Expected empty line before rule                            rule-empty-line-before
+ 49:3  ✖  Expected class selector ".spesific_info" to be kebab-case  selector-class-pattern
+ 53:3  ✖  Expected empty line before rule                            rule-empty-line-before
+ 56:3  ✖  Expected empty line before rule                            rule-empty-line-before
+ 59:3  ✖  Expected empty line before rule                            rule-empty-line-before
+ 59:3  ✖  Expected class selector ".other_viewed" to be kebab-case   selector-class-pattern
+
+css/success.css
+ 1:1  ✖  Expected class selector ".success_message" to be kebab-case  selector-class-pattern
+
+120 problems (120 errors, 0 warnings)
+
