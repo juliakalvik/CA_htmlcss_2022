@@ -1,0 +1,44 @@
+html,
+body {
+  font-family: "Roboto";
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.nav_parent {
+  display: flex;
+  flex-direction: column;
+}
+
+li * img {
+  width: 55px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.navbar * li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav_img {
+  width: 150px;
+}
+
+.fave_icon {
+  width: 45px;
+}

@@ -1,3 +1,26 @@
+main {
+  background-image: url("/image/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.header_section {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.header_group {
+  margin: 100px;
+}
+
 .herocontainer {
   display: flex;
   justify-content: center;
