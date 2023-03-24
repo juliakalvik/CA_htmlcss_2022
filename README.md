@@ -3,6 +3,9 @@ This is my attempt at improving the user experience by redesigning my very first
 I started with observing how people navigated through the site with the old design using hotjar.
 From there, I tried to make the design make more sense in Figma. I only redesigned the pages that got the most attention according to my hotjar recordings, and simply based the rest of my coded pages on that theme. I still kept some of the old elements, but improved them.
 
+Because most of my hotjar recordings were from people using desktop, I made desktop my priority for this project.
+I plan to make the website responsive on all surfaces in the future.
+
 I also filmed/interviewed my boyfriend while he compared the old to the new site.
 LINK TO INTERVIEW:
 
