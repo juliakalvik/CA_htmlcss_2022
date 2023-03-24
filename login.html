@@ -23,99 +23,69 @@
       content="Rainy Days - Log in to your profile here"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/nav_top_phone.css" />
-    <link rel="stylesheet" href="css/nav_top_desk.css" />
-    <link rel="stylesheet" href="css/nav_bottom.css" />
-    <link rel="stylesheet" href="css/login.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <script defer src="/js/form.js"></script>
+    
+   
     <title>Log in</title>
   </head>
-  <body class="bg_photo">
-    <header class="topnav_desktop">
-      <div class="topnav">
-        <div class="header-left">
-          <a href="index.html"
-            ><img
-              src="images/RainyDays_Logo_white.png"
-              alt="Rainy Days, pushing the comfort zone"
-              class="headerlogo white" />
-            <img
-              src="images/RainyDays_Logo_green.png"
-              alt="Rainy Days, pushing the comfort zone"
-              class="headerlogo green"
-          /></a>
-          <a href="about.html">ABOUT US</a>
-          <a href="contact.html">CONTACT</a>
-        </div>
-        <div class="header-right">
-          <a class="menu" href="jackets.html">SHOP</a>
-          <a class="menu" href="login.html">PROFILE</a>
-          <a class="menu" href="cart.html">FAVORITES</a>
-          <a class="menu" href="cart.html">CART</a>
-        </div>
-      </div>
+  <section class="nav_parent">
+    <header class="navbar">
+      <a href="index.html"><img src="images/RainyDays_Logo_green.png" alt="Rainy Days, pushing the comfort zone" class="nav_img" /><a>
+      <ul>
+        <li><button><a href="jackets.html" class="nav_button">SHOP JACKETS</a></button></li>
+        <li><a href="login.html"><img src="icons/UserCircle.png" alt="User profile icon" class="profile_icon"></a></li>
+        <li><a href="cart.html"><img src="icons/Fave.png" alt="Favorite icon" class="fave_icon"></a></li>
+        <li><a href="cart.html"><img src="icons/Cart.png" alt="Cart icon" class="cart_icon"></a></li>
+      </ul>
     </header>
-    <header class="topnav_phone">
-      <div class="topnav_left">
-        <a href="index.html"
-          ><img
-            src="images/RainyDays_Logo_green.png"
-            alt="Rainy Days, pushing the comfort zone"
-            class="headerlogo_green"
-          />
-        </a>
-        <a href="index.html"
-          ><img src="images/btn_back.png" alt="Back" class="btn_back"
-        /></a>
-      </div>
-      <div class="topnav_right">
-        <a href="about.html">ABOUT</a>
-        <a href="jackets.html">SHOP</a>
-      </div>
-    </header>
-
-    <main class="content">
-      <div class="h1_form">
-        <div class="textbox">
-          <h1>Log in</h1>
-        </div>
-        <section class="contactform">
-          <div>
-            <form action="index.html">
-              <input type="text" id="email" placeholder="E-mail" />
-              <input type="text" id="password" placeholder="Password" />
-              <input type="submit" value="Log in" />
+  </section>
+  <body>
+    <section class="form_section">
+      <div class="form_all_content">
+        <div class="form">
+          <h2>Any questions or inquiries?</h2>
+          <h4>Contact us here:</h4>
+          <div class="form_container">
+            <form action="submit" method="post" id="submitform">
+              <div class="field">
+                <label for="name">NAME:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" />
+                <small></small>
+              </div>
+              <div class="field">
+                <label for="email">E-MAIL:</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your e-mail address" />
+                <small></small>
+              </div>
+              <div class="field">
+                <label for="message">MESSAGE:</label><br>
+                <input type="text" id="message" class="message" name="message" placeholder="Write your message here" />
+                <small></small>
+              </div>
+              <div class="field">
+                <button type="submit" class="nav_button">SUBMIT</button>
+              </div>
             </form>
+        </div>
           </div>
-        </section>
+          <div class="form_buttons_img">
+            <div class="form_buttons">
+              <button><a href="jackets.html" class="nav_button">SHOP MEN</a></button>
+              <button><a href="jackets.html" class="nav_button">SHOP WOMEN</a></button>
+            </div>
+            <img src="/image/form_img.png" alt="Happy woman jumping on a mountain" class="form_img">
+        </div>
       </div>
-
-      <div class="profile_img">
-        <img src="images/Profile_img.png" alt="Silhouette of a person" />
-      </div>
-    </main>
-
+    </section>
     <div class="footer">
       <p>© 2022 All rights reserved</p>
     </div>
+
     <footer>
-      <div class="nav_bottom">
-        <a href="index.html"
-          ><img alt="Icon of a mountain" src="images/btn_1.png" />
-        </a>
-        <a href="jackets.html"
-          ><img alt="Icon of a magnifying glass" src="images/btn_2.png"
-        /></a>
-        <a href="cart.html"
-          ><img alt="icon of a heart" src="images/btn_3.png"
-        /></a>
-        <a href="cart.html"
-          ><img alt="icon of a shopping cart" src="images/btn_4.png"
-        /></a>
-        <a href="login.html"
-          ><img alt="Icon of a silouette of a person" src="images/btn_5.png"
-        /></a>
-      </div>
     </footer>
   </body>
 </html>

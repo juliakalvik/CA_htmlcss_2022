@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .chosen_items {
   display: flex;
   border-radius: 4%;
@@ -18,7 +21,7 @@
   margin: 3%;
   display: flex;
   justify-content: space-around;
-  background-color: #ece0c9;
+  background-color: rgba(95, 92, 84, 0.1);
   border-radius: 10px;
 }
 
@@ -27,25 +30,6 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.cartshopmore button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-family: "oxanium";
-  background-color: #39593e;
-  color: #ece0c9;
-  border: none;
-  width: 250px;
-  height: 40px;
-  margin-left: 20px;
-  border-radius: 5px;
-}
-
-.cartshopmore a {
-  text-decoration: none;
 }
 
 .form {
@@ -58,25 +42,33 @@
 
 ::placeholder {
   color: #8d8677;
-  background-color: #ece0c9;
+  background-color: transparent;
   font-size: 15px;
   font-family: "roboto";
 }
 
-.form button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-family: "oxanium";
-  background-color: #39593e;
-  color: #ece0c9;
+.form button,
+.cartshopmore button {
   border: none;
-  width: 250px;
-  height: 40px;
-  margin-left: 20px;
+  background-color: transparent;
+  border: solid 2px;
+  border-radius: 8px;
+  color: #292c1e;
+  padding: 15px 15px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
   margin-top: 20px;
-  border-radius: 5px;
+}
+
+input {
+  border: solid 2px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .cardinfo a {

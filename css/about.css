@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;500&display=swap");
 
-.bg_photo {
-  background-image: url(../images/bg_photo_2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+body {
+  margin: 0;
 }
+
 .textbox {
   display: flex;
   flex-direction: column;
@@ -16,36 +14,14 @@
   max-width: 400px;
 }
 
-.logoabout img {
-  display: flex;
-  flex-direction: column;
-  padding-left: 60px;
-  margin-left: 20%;
-  padding-top: 30%;
-  width: 80%;
-}
-
-.contacthere button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-family: "oxanium";
-  background-color: #39593e;
-  color: #ece0c9;
-  border: none;
-  width: 300px;
-  height: 70px;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
 main {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 

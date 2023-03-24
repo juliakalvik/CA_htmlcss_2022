@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .chosen_items {
   display: flex;
   border-radius: 15%;
@@ -36,6 +39,12 @@
   margin: 3%;
   display: flex;
   justify-content: space-around;
-  background-color: #ece0c9;
+  background-color: rgba(95, 92, 84, 0.1);
   border-radius: 20px;
+}
+
+.nav_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -6,6 +6,10 @@ h1 {
   color: #39593e;
 }
 
+body {
+  margin: 0;
+}
+
 .spesific_info {
   display: flex;
   flex-direction: row;
