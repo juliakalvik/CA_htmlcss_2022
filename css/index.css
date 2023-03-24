@@ -1,3 +1,8 @@
+html,
+body {
+  color: #292c1e;
+}
+
 main {
   background-image: url("/image/header.png");
   background-position: center;
@@ -17,8 +22,107 @@ h1 {
   font-size: 20px;
 }
 
-.header_group {
+.header_group,
+.help_group {
   margin: 100px;
+}
+
+.jackets_homepage_parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jackets_homepage {
+  display: flex;
+  gap: 50px;
+}
+
+.jacket {
+  text-align: center;
+  background-color: rgba(95, 92, 84, 0.1);
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  width: 300px;
+  border-radius: 26px;
+}
+
+.jacket > img {
+  height: 300px;
+  margin: 3%;
+  padding: 20px;
+}
+
+.help_section {
+  background-image: url("/image/header2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.help_buttons {
+  width: 400px;
+}
+
+.help_group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form_img {
+  width: 300px;
+  height: 460px;
+  margin-top: 30px;
+}
+
+.form_all_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.form_buttons_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_features {
+  height: 800px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.embrace {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.embrace_imgs {
+  width: 300px;
 }
 
 .herocontainer {
@@ -47,28 +151,6 @@ h1 {
 .hero {
   width: 95%;
   max-height: auto;
-}
-
-.jackets_homepage {
-  display: flex;
-  align-items: flex-end;
-}
-
-.jacket {
-  text-align: center;
-}
-
-.jacket > img {
-  height: 200px;
-  margin: 3%;
-}
-
-.jacket > a > button {
-  color: #ece0c9;
-  font-family: Roboto-Medium;
-  background-color: #39593e;
-  text-align: center;
-  width: 80px;
 }
 
 .activities {

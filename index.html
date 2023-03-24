@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <script defer src="/js/form.js"></script>
     <title>Welcome to Rainy Days</title>
   </head>
   <body>
@@ -56,79 +58,107 @@
     </main>
 
     
-    <div class="content">
-      <h4>Our best selling jackets right now:</h4>
-
+    <section class="jackets_homepage_parent">
+      <h2>New in</h2>
       <div class="jackets_homepage">
         <div class="jacket">
-          <img
-            src="images/RainyDays_Jacket1.png"
-            alt="Gray jacket with orange arms"
-          />
-          <a href="/spesific.html"><button>VIEW</button></a>
-        </div>
-        <div class="jacket">
-          <img src="images/RainyDays_Jacket2.png" alt="Black jacket" />
+          <img src="images/RainyDays_Jacket2.png" alt="Gray jacket" />
           <a href="/spesific.html"><button>VIEW</button></a>
         </div>
         <div class="jacket">
           <img src="images/RainyDays_Jacket3.png" alt="Red jacket" />
           <a href="/spesific.html"><button>VIEW</button></a>
         </div>
-
-        <div class="jacket">
-          <img
-            src="images/RainyDays_Jacket5.png"
-            alt="Gray jacket with orange arms"
-          />
-          <a href="/spesific.html"><button>VIEW</button></a>
-        </div>
-
         <div class="jacket">
           <img
             src="images/RainyDays_Jacket4.png"
-            alt="Gray jacket with orange arms"
+            alt="Black jacket"
           />
           <a href="/spesific.html"><button>VIEW</button></a>
         </div>
       </div>
+    </section>
 
-      <h4>A jacket for any outdoor activity</h4>
+    <section class="help_section">
+      <div class="help_group">
+        <h2>How can we help you?</h2>
+        <div class="help_buttons">
+          <button><a href="about.html" class="nav_button">ABOUT</a></button>
+          <button><a href="contact.html" class="nav_button">CONTACT</a></button>
+          <button><a href="jackets.html" class="nav_button">SIZE GUIDE</a></button>
+          <button><a href="jackets.html" class="nav_button">RETURNS</a></button>
+      </div>
+      </div>
+    </section>
 
-      <div class="activities">
-        <img src="images/activity1.jpeg" alt="Woman hiking in the mountains" />
-        <img src="images/activity2.jpeg" alt="Person kayaking in a waterfall" />
-        <img
-          src="images/activity3.jpeg"
-          alt="Woman walking through a field towards the mountains"
-        />
-        <img
-          src="images/activity4.jpeg"
-          alt="Man skiing downhill, doing a jumping trick"
-        />
+    <section class="form_section">
+      <div class="form_all_content">
+        <div class="form">
+          <h2>Any questions or inquiries?</h2>
+          <h4>Contact us here:</h4>
+          <div class="form_container">
+            <form action="submit" method="post" id="submitform">
+              <div class="field">
+                <label for="name">NAME:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" />
+                <small></small>
+              </div>
+              <div class="field">
+                <label for="email">E-MAIL:</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your e-mail address" />
+                <small></small>
+              </div>
+              <div class="field">
+                <label for="message">MESSAGE:</label><br>
+                <input type="text" id="message" class="message" name="message" placeholder="Write your message here" />
+                <small></small>
+              </div>
+              <div class="field">
+                <button type="submit" class="nav_button">SUBMIT</button>
+              </div>
+            </form>
+        </div>
+          </div>
+          <div class="form_buttons_img">
+            <div class="form_buttons">
+              <button><a href="jackets.html" class="nav_button">SHOP MEN</a></button>
+              <button><a href="jackets.html" class="nav_button">SHOP WOMEN</a></button>
+            </div>
+            <img src="/image/form_img.png" alt="Happy woman jumping on a mountain" class="form_img">
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <img src="/image/features.png" alt="Jacket with info about specific features" class="img_features">
+    </section>
+
+    <section class="embrace">
+      <h2>Embrace the explorer in you</h2>
+      <div class="embrace_section_imgs">
+        <img src="/image/hike1.png" alt="Man resting on a hike" class="embrace_imgs">
+        <img src="/image/hike2.png" alt="Woman on a hike walking" class="embrace_imgs">
+        <img src="/image/hike3.png" alt="Man doing the dishes at a beach outside of a tent" class="embrace_imgs">
+        <img src="/image/hike4.png" alt="Woman enjoying the view on a hike" class="embrace_imgs">
+      </div>
+    </section>
+		
+
+
+    
+      
+
+
+        
+
+      
       </div>
     </div>
     <div class="footer">
       <p>© 2022 All rights reserved</p>
     </div>
     <footer>
-      <div class="nav_bottom">
-        <a href="index.html"
-          ><img alt="Icon of a mountain" src="images/btn_1.png" />
-        </a>
-        <a href="jackets.html"
-          ><img alt="Icon of a magnifying glass" src="images/btn_2.png"
-        /></a>
-        <a href="cart.html"
-          ><img alt="icon of a heart" src="images/btn_3.png"
-        /></a>
-        <a href="cart.html"
-          ><img alt="icon of a shopping cart" src="images/btn_4.png"
-        /></a>
-        <a href="login.html"
-          ><img alt="Icon of a silouette of a person" src="images/btn_5.png"
-        /></a>
-      </div>
+      
     </footer>
   </body>
 </html>
