@@ -20,6 +20,8 @@ main {
 }
 
 .content {
+  background-image: url("/image/success.jpeg");
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,14 +29,4 @@ main {
 
 .contacthere a {
   text-decoration: none;
-}
-
-@media screen and (max-width: 768px) {
-  .logoabout img {
-    display: none;
-  }
-
-  .contacthere button {
-    margin-left: 9px;
-  }
 }

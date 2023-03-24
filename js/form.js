@@ -1,3 +1,6 @@
+//BASED ON CODE FROM THIS SITE:
+// https://www.javascripttutorial.net/javascript-dom/javascript-form/
+
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector("small");
   msg.innerText = message;

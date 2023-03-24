@@ -1,8 +1,22 @@
-body {
+body,
+html {
   margin: 0;
 }
 
 .success_message {
   width: 80%;
   padding-left: 10%;
+  margin-top: 50px;
+}
+
+.success_img {
+  background-image: url("/image/success.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10px;
 }
