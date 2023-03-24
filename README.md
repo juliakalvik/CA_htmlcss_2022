@@ -8,6 +8,7 @@ I plan to make the website responsive on all surfaces in the future.
 
 I also filmed/interviewed my boyfriend while he compared the old to the new site.
 LINK TO INTERVIEW:
+https://youtu.be/3_lIA31JjOo
 
 LINK FIGMA FILE (with both old and new designs):
 https://www.figma.com/file/2LVQeK2ppazjh4UfFkG6Nk/RAINYDAYS?node-id=13%3A1126&t=TcdJ1UxCzlMGALON-1
