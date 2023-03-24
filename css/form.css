@@ -24,16 +24,11 @@ input {
   border-radius: 8px;
   color: #292c1e;
   width: 250px;
-  height: 50px;
-  text-align: center;
+  padding: 20px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
   line-break: auto;
-}
-
-.message {
-  height: 90px;
 }

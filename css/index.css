@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 html,
 body {
   color: #292c1e;
@@ -45,6 +49,14 @@ h1 {
   object-fit: contain;
   width: 300px;
   border-radius: 26px;
+}
+a {
+  text-decoration: none;
+  color: #292c1e;
+}
+
+a * p {
+  font-weight: 600;
 }
 
 .jacket > img {

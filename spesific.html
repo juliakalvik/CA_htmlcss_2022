@@ -21,39 +21,25 @@
     <meta name="description" content="Rainy Days - Product specific page" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/nav_top_phone.css" />
-    <link rel="stylesheet" href="css/nav_top_desk.css" />
     <link rel="stylesheet" href="css/nav_bottom.css" />
-    <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/spesific.css" />
-    <link rel="stylesheet" href="css/nav_top_desk.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/button.css" />
 
     <title>Jacket specific</title>
   </head>
   <body>
-    <header class="topnav_desktop">
-      <div class="topnav">
-        <div class="header-left">
-          <a href="index.html"
-            ><img
-              src="images/RainyDays_Logo_white.png"
-              alt="Rainy Days, pushing the comfort zone"
-              class="headerlogo white" />
-            <img
-              src="images/RainyDays_Logo_green.png"
-              alt="Rainy Days, pushing the comfort zone"
-              class="headerlogo green"
-          /></a>
-          <a href="about.html">ABOUT US</a>
-          <a href="contact.html">CONTACT</a>
-        </div>
-        <div class="header-right">
-          <a class="menu" href="jackets.html">SHOP</a>
-          <a class="menu" href="login.html">PROFILE</a>
-          <a class="menu" href="cart.html">FAVORITES</a>
-          <a class="menu" href="cart.html">CART</a>
-        </div>
-      </div>
-    </header>
+    <section class="nav_parent">
+      <header class="navbar">
+        <a href="index.html"><img src="images/RainyDays_Logo_green.png" alt="Rainy Days, pushing the comfort zone" class="nav_img" /><a>
+        <ul>
+          <li><button><a href="jackets.html" class="nav_button">SHOP JACKETS</a></button></li>
+          <li><a href="login.html"><img src="icons/UserCircle.png" alt="User profile icon" class="profile_icon"></a></li>
+          <li><a href="cart.html"><img src="icons/Fave.png" alt="Favorite icon" class="fave_icon"></a></li>
+          <li><a href="cart.html"><img src="icons/Cart.png" alt="Cart icon" class="cart_icon"></a></li>
+        </ul>
+      </header>
+    </section>
     <header class="topnav_phone">
       <div class="topnav_left">
         <a href="index.html"
@@ -84,11 +70,11 @@
         </div>
         <div>
           <div class="button_spesific">
-            <button>XS</button>
-            <button>S</button>
-            <button>M</button>
-            <button>L</button>
-            <button>XL</button>
+            <button class="size">XS</button>
+            <button class="size">S</button>
+            <button class="size">M</button>
+            <button class="size">L</button>
+            <button class="size">XL</button>
           </div>
 
           <h1>Polar First Jacket</h1>
@@ -103,26 +89,31 @@
           </p>
 
           <h2>
-            NOK 699,- <a href="spesific.html"><button>Add to cart</button></a>
+            NOK 699,- <a href="spesific.html"><button class="size">Add to cart</button></a>
           </h2>
         </div>
       </div>
       <hr class="divider" />
       <h3 class="other_viewed">Others also viewed:</h3>
       <div class="recommendation">
-        <img
-          src="images/RainyDays_Jacket2.png"
-          alt="Gray jacket with orange arms"
-        />
-        <img src="images/RainyDays_Jacket3.png" alt="Red jacket" />
-        <img
-          src="images/RainyDays_Jacket5.png"
-          alt="Gray jacket with orange arms"
-        />
-        <img
-          src="images/RainyDays_Jacket4.png"
-          alt="Gray jacket with orange arms"
-        />
+        <a href="/spesific.html">
+          <div class="jacket">
+            <img src="images/RainyDays_Jacket5.png" alt="Gray jacket" />
+            <p>Alex Active Jacket</p>
+            <p>1.800,-</p>
+          </div></a>
+          <a href="/spesific.html">
+            <div class="jacket">
+              <img src="images/RainyDays_Jacket6.png" alt="Gray jacket" />
+              <p>Scott Fitted Jacket</p>
+              <p>2.000,-</p>
+            </div></a>
+            <a href="/spesific.html">
+              <div class="jacket">
+                <img src="images/RainyDays_Jacket7.png" alt="Gray jacket" />
+                <p>Tod Fleece Jacket</p>
+                <p>899,-</p>
+              </div></a>
       </div>
     </section>
 
